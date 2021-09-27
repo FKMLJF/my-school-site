@@ -1,7 +1,12 @@
 import * as React from "react"
+import MyNavbar from "../templates/navbar";
 
 const IndexPage = () => {
-    return (<h1>Főoldal</h1>)
+    return (
+        <div>
+            <MyNavbar/>
+        </div>
+    )
 }
 
 export default IndexPage
