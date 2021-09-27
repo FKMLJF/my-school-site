@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Oxygen';
+    src: local('Oxygen'), url(../fonts/Oxygen/Oxygen-Regular.ttf) format('truetype');
+}
+
+body html{
+    font-family: Oxygen, serif;
+    color: #0004;
+}

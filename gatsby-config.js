@@ -4,6 +4,15 @@ module.exports = {
     title: "MySchool",
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Oxygen\:300,400,700`,
+        ],
+        display: 'swap'
+      }
+    },
     "gatsby-plugin-theme-ui",
     "gatsby-plugin-image",
     {
