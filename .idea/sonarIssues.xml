@@ -3,6 +3,16 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/.cache/commonjs/fast-refresh-overlay/components/dev-ssr-error.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.env">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/gatsby-browser.js">
           <value>
             <set />
@@ -23,6 +33,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/components/layout.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/gatsby-plugin-theme-ui/index.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/pages/contact.js">
           <value>
             <set />
@@ -39,6 +59,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/pages/language-certificate.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/templates/head-card.js">
           <value>
             <set />
           </value>

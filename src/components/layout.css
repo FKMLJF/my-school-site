@@ -1,0 +1,62 @@
+html{
+    overflow-x: hidden!important;
+}
+
+body {
+    font-family: "Yaldevi";
+    font-size:  min(max(16px, 4vw), 22px);
+}
+
+#logo{
+    width: min(max(40px, 8vw), 60px);
+    height: auto;
+}
+
+h1{
+    font-size:  min(max(20px, 4vw), 28px);
+}
+h2{
+    font-size:  min(max(18px, 4vw), 24px);
+}
+
+p{
+    font-size:  min(max(16px, 4vw), 18px);
+}
+
+
+h1, h2, h3, h4, h5, h6, a{
+    color: #cd5c5c!important;
+}
+.card-icons{
+    width: min(max(50px, 8vw), 100px);
+    height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .card-icons{
+        width: min(max(40px, 8vw), 65px);
+        height: auto;
+    }
+}
+
+.active{
+    font-weight: bolder;
+}
+
+.min-ih-100{
+    min-height: 100%;
+}
+
+.main-card{
+    background-image: url(../images/header.svg);
+    height: 34vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-orange{
+    color: #e07300!important;
+}
+.primary-red{
+    color: #cd5c5c!important;
+}

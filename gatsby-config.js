@@ -1,19 +1,11 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
     title: "MySchool",
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          `Oxygen\:300,400,700`,
-        ],
-        display: 'swap'
-      }
-    },
-    "gatsby-plugin-theme-ui",
     "gatsby-plugin-image",
     {
       resolve: "gatsby-plugin-google-analytics",
