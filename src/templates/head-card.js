@@ -3,7 +3,7 @@ import {Card, Col, Row} from "react-bootstrap";
 
 const HeadCard = (props) => {
     return (
-        <Card className={"px-2 py-2 min-ih-100 mb-3"}>
+        <Card className={"p-2 min-ih-100 mb-3"}>
             <Card.Body>
                 <Row>
                     <Col lg={3} xs={3} className={"d-flex align-items-start pt-2 d-md-none d-lg-block"}>
